@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #181314;
+    color: #2C2523;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* PageFlip Canvas & Element Styling */
+.stf__parent {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  transform-style: preserve-3d;
+  user-select: none;
+}
+
+.stf__wrapper {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.stf__block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.stf__item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/* Page Book Surface & Subtle Spine Shadows */
+.page {
+  box-sizing: border-box;
+  background-color: #F7F1E5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+  backface-visibility: hidden;
+}
+
+/* Custom Scrollbar in Warm Parchment Tones */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2C2523;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C7A77B;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A68452;
+}
+
+/* Smooth Fade In Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
