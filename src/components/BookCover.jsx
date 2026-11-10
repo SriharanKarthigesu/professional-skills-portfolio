@@ -42,7 +42,7 @@ export const CoverRightPage = forwardRef(({ onCornerClick, ...props }, ref) => {
       <div className="absolute top-8 md:top-10 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center">
         <div className="bg-white px-5 py-2.5 rounded-xl shadow-sm border border-[#C7A77B]/50 flex items-center justify-center">
           <img
-            src="/images/scu_sliit_city_uni_logo_page1.png"
+            src="./images/scu_sliit_city_uni_logo_page1.png"
             alt="SCU SLIIT City Uni Logo"
             className="h-14 md:h-16 w-auto object-contain"
           />

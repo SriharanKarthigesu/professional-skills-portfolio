@@ -68,7 +68,7 @@ export const IntroSkillsLeftPage = React.forwardRef(({ onCornerClick, ...props }
             </h4>
             <div className="w-full max-w-sm h-44 md:h-48 overflow-hidden rounded bg-white flex items-center justify-center p-1 border border-[#C7A77B]/30">
               <img
-                src="/images/johari_window.jpg"
+                src="./images/johari_window.jpg"
                 alt="Johari Window Exercise"
                 className="w-full h-full object-contain"
               />
@@ -117,7 +117,7 @@ export const IntroSkillsRightPage = React.forwardRef(({ onCornerClick, ...props 
         <div className="my-auto flex-1 flex flex-col items-center justify-center py-2">
           <div className="w-full h-[520px] md:h-[580px] bg-white p-2 rounded-lg shadow-sm border border-[#C7A77B]/40 flex items-center justify-center">
             <img
-              src="/images/professional_identity_tree.jpg"
+              src="./images/professional_identity_tree.jpg"
               alt="Individual Activity: Professional Identity Tree"
               className="w-full h-full object-contain"
             />
@@ -166,7 +166,7 @@ export const CandleHolderLeftPage = React.forwardRef(({ onCornerClick, ...props 
             {/* Top Photo */}
             <div className="flex-1 bg-white p-1.5 rounded-lg border border-[#C7A77B]/40 shadow-xs flex items-center justify-center">
               <img
-                src="/images/candle_making_group.jpg"
+                src="./images/candle_making_group.jpg"
                 alt="Group activity workshop"
                 className="w-full h-full max-h-[250px] object-contain rounded"
               />
@@ -175,7 +175,7 @@ export const CandleHolderLeftPage = React.forwardRef(({ onCornerClick, ...props 
             {/* Bottom Photo (Group Photo with craft) */}
             <div className="flex-1 bg-white p-1.5 rounded-lg border border-[#C7A77B]/40 shadow-xs flex items-center justify-center">
               <img
-                src="/images/candle_group_presentation.jpg"
+                src="./images/candle_group_presentation.jpg"
                 alt="Group photo with candle holder"
                 className="w-full h-full max-h-[250px] object-contain rounded"
               />
@@ -185,7 +185,7 @@ export const CandleHolderLeftPage = React.forwardRef(({ onCornerClick, ...props 
           {/* Right Column: IMG_7375 Candle Holder Full Height - Zoomed in */}
           <div className="h-full bg-white p-1 rounded-lg border border-[#C7A77B]/40 shadow-xs flex items-center justify-center overflow-hidden">
             <img
-              src="/images/img_7375_candle.jpg"
+              src="./images/img_7375_candle.jpg"
               alt="Candle holder close-up"
               className="w-full h-full max-h-[550px] object-cover scale-110 rounded transition-transform"
             />
@@ -299,13 +299,13 @@ export const CVReviewLeftPage = React.forwardRef(({ onPhotoClick, onCornerClick,
           <div className="w-full h-full max-h-[580px] bg-white p-2.5 rounded-lg shadow-sm border border-[#C7A77B]/50 flex flex-col items-center justify-between">
             <div
               onClick={() => onPhotoClick && onPhotoClick({
-                url: "/images/cv_checking_lecturer.jpg",
+                url: "./images/cv_checking_lecturer.jpg",
                 caption: "Classroom Feedback Session: Lecturer reviewing Sriharan's CV formatting and structure."
               })}
               className="w-full flex-1 max-h-[470px] overflow-hidden rounded bg-black/5 flex items-center justify-center cursor-pointer group"
             >
               <img
-                src="/images/cv_checking_lecturer.jpg"
+                src="./images/cv_checking_lecturer.jpg"
                 alt="Lecturer checking CV"
                 className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
               />
@@ -408,13 +408,13 @@ export const CVPageOneLeftPage = React.forwardRef(({ onPhotoClick, onCornerClick
     >
       <div
         onClick={() => onPhotoClick && onPhotoClick({
-          url: "/images/sriharan_cv_page_1.jpg",
+          url: "./images/sriharan_cv_page_1.jpg",
           caption: "Curriculum Vitae — Page 1: Sriharan Karthigesu (Professional Experience, Education, Projects)."
         })}
         className="w-full h-full flex items-center justify-center cursor-pointer overflow-hidden p-0.5"
       >
         <img
-          src="/images/sriharan_cv_page_1.jpg"
+          src="./images/sriharan_cv_page_1.jpg"
           alt="Sriharan Karthigesu CV - Page 1"
           className="w-full h-full object-contain rounded drop-shadow-sm hover:scale-[1.01] transition-transform"
         />
@@ -440,13 +440,13 @@ export const CVPageTwoRightPage = React.forwardRef(({ onPhotoClick, onCornerClic
     >
       <div
         onClick={() => onPhotoClick && onPhotoClick({
-          url: "/images/sriharan_cv_page_2.jpg",
+          url: "./images/sriharan_cv_page_2.jpg",
           caption: "Curriculum Vitae — Page 2: Sriharan Karthigesu (Projects, Skills & Certifications, Languages, Referees)."
         })}
         className="w-full h-full flex items-center justify-center cursor-pointer overflow-hidden p-0.5"
       >
         <img
-          src="/images/sriharan_cv_page_2.jpg"
+          src="./images/sriharan_cv_page_2.jpg"
           alt="Sriharan Karthigesu CV - Page 2"
           className="w-full h-full object-contain rounded drop-shadow-sm hover:scale-[1.01] transition-transform"
         />

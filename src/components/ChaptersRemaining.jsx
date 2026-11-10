@@ -136,7 +136,7 @@ export const InterviewSkillsRightPage = React.forwardRef(({ onCornerClick, ...pr
         <div className="my-auto flex-1 flex flex-col justify-between py-1 gap-2">
           <div className="w-full flex-1 max-h-[460px] md:max-h-[500px] bg-white rounded-lg p-2 border border-[#C7A77B]/40 shadow-xs flex items-center justify-center overflow-hidden">
             <img
-              src="/images/attire_clean_guide.png"
+              src="./images/attire_clean_guide.png"
               alt="Interview Attire Standards: DO and DON'T"
               className="w-full h-full object-contain"
             />
@@ -341,7 +341,7 @@ export const MeetingsRightPage = React.forwardRef(({ onCornerClick, ...props }, 
           {/* Center of page: Effective Meeting Contributions Image with NO white frame behind */}
           <div className="w-full flex-1 max-h-[220px] flex items-center justify-center overflow-hidden my-auto">
             <img
-              src="/images/effective_meeting_contributions.jpg"
+              src="./images/effective_meeting_contributions.jpg"
               alt="Effective Meeting Contributions"
               className="w-auto h-full max-h-[210px] object-contain rounded drop-shadow-sm"
             />
@@ -711,13 +711,13 @@ export const GroupProjectLeftPage = React.forwardRef(({ onPhotoClick, onCornerCl
           {/* Poster Image: Significantly Bigger, Clear, No White Frame */}
           <div
             onClick={() => onPhotoClick && onPhotoClick({
-              url: "/images/environmental_day_poster.jpg",
+              url: "./images/environmental_day_poster.jpg",
               caption: "Official Project Poster: Environmental Awareness Quiz & Indoor Plant Giveaway at Turret Tower."
             })}
             className="w-full flex-1 max-h-[350px] md:max-h-[380px] flex items-center justify-center cursor-pointer hover:scale-[1.01] transition-transform"
           >
             <img
-              src="/images/environmental_day_poster.jpg"
+              src="./images/environmental_day_poster.jpg"
               alt="Project Poster"
               className="w-auto h-full max-h-[340px] md:max-h-[370px] object-contain drop-shadow-md rounded"
             />
@@ -727,13 +727,13 @@ export const GroupProjectLeftPage = React.forwardRef(({ onPhotoClick, onCornerCl
           <div className="grid grid-cols-3 gap-2 w-full">
             <div
               onClick={() => onPhotoClick && onPhotoClick({
-                url: "/images/quiz_screen_1.png",
+                url: "./images/quiz_screen_1.png",
                 caption: "Root & Rise Mobile Quiz Website: Question Assessment Screen."
               })}
               className="h-40 md:h-44 flex items-center justify-center cursor-pointer group bg-black/5 rounded p-0.5"
             >
               <img
-                src="/images/quiz_screen_1.png"
+                src="./images/quiz_screen_1.png"
                 alt="Quiz Screen 1"
                 className="h-full w-auto object-contain drop-shadow-sm rounded group-hover:scale-105 transition-transform duration-300"
               />
@@ -741,13 +741,13 @@ export const GroupProjectLeftPage = React.forwardRef(({ onPhotoClick, onCornerCl
 
             <div
               onClick={() => onPhotoClick && onPhotoClick({
-                url: "/images/img_7968.jpg",
+                url: "./images/img_7968.jpg",
                 caption: "IMG_7968: Project Plant Preparation, Packaging & QR Sticker Application."
               })}
               className="h-40 md:h-44 flex items-center justify-center cursor-pointer group bg-black/5 rounded p-0.5"
             >
               <img
-                src="/images/img_7968.jpg"
+                src="./images/img_7968.jpg"
                 alt="IMG_7968 - Plant Preparation"
                 className="h-full w-auto object-contain drop-shadow-sm rounded group-hover:scale-105 transition-transform duration-300"
               />
@@ -755,13 +755,13 @@ export const GroupProjectLeftPage = React.forwardRef(({ onPhotoClick, onCornerCl
 
             <div
               onClick={() => onPhotoClick && onPhotoClick({
-                url: "/images/quiz_screen_2.png",
+                url: "./images/quiz_screen_2.png",
                 caption: "Root & Rise Mobile Quiz Website: Leaderboard & Score Screen."
               })}
               className="h-40 md:h-44 flex items-center justify-center cursor-pointer group bg-black/5 rounded p-0.5"
             >
               <img
-                src="/images/quiz_screen_2.png"
+                src="./images/quiz_screen_2.png"
                 alt="Quiz Screen 2"
                 className="h-full w-auto object-contain drop-shadow-sm rounded group-hover:scale-105 transition-transform duration-300"
               />
@@ -813,13 +813,13 @@ export const GroupProjectRightPage = React.forwardRef(({ onPhotoClick, onCornerC
           <div className="grid grid-cols-2 gap-2 px-0.5">
             <div
               onClick={() => onPhotoClick && onPhotoClick({
-                url: "/images/project_working_1.jpg",
+                url: "./images/project_working_1.jpg",
                 caption: "IMG_7926: Project Coordination, Setup and plant packaging at Turret Tower."
               })}
               className="transform -rotate-1 hover:rotate-0 hover:scale-105 transition-all duration-300 drop-shadow-md cursor-pointer flex justify-center bg-white/40 p-0.5 rounded overflow-hidden"
             >
               <img
-                src="/images/project_working_1.jpg"
+                src="./images/project_working_1.jpg"
                 alt="IMG_7926 - Project Working"
                 className="w-full h-44 md:h-52 object-contain rounded shadow-sm"
               />
@@ -827,13 +827,13 @@ export const GroupProjectRightPage = React.forwardRef(({ onPhotoClick, onCornerC
 
             <div
               onClick={() => onPhotoClick && onPhotoClick({
-                url: "/images/project_working_2.jpg",
+                url: "./images/project_working_2.jpg",
                 caption: "IMG_7950: Project Facilitation, Live quiz coordination and plant giveaway."
               })}
               className="transform rotate-1 hover:rotate-0 hover:scale-105 transition-all duration-300 drop-shadow-md cursor-pointer flex justify-center bg-white/40 p-0.5 rounded overflow-hidden"
             >
               <img
-                src="/images/project_working_2.jpg"
+                src="./images/project_working_2.jpg"
                 alt="IMG_7950 - Project Working"
                 className="w-full h-44 md:h-52 object-contain rounded shadow-sm"
               />
@@ -843,10 +843,10 @@ export const GroupProjectRightPage = React.forwardRef(({ onPhotoClick, onCornerC
           {/* Middle: Event & Plant Photos (IMG_8094 removed as requested) */}
           <div className="grid grid-cols-4 gap-1.5 px-0.5">
             {[
-              { src: "/images/plant_7983_new.jpg", rot: "-rotate-2", cap: "IMG_7983: Potted Plant Giveaway" },
-              { src: "/images/event_8058_new.jpg", rot: "rotate-1", cap: "IMG_8058: Live Quiz Participant" },
-              { src: "/images/event_8105_new.jpg", rot: "rotate-2", cap: "IMG_8105: Plant Selection & Distribution" },
-              { src: "/images/plant_giveaway_present.jpg", rot: "-rotate-1", cap: "Plant Presentation to Winners" },
+              { src: "./images/plant_7983_new.jpg", rot: "-rotate-2", cap: "IMG_7983: Potted Plant Giveaway" },
+              { src: "./images/event_8058_new.jpg", rot: "rotate-1", cap: "IMG_8058: Live Quiz Participant" },
+              { src: "./images/event_8105_new.jpg", rot: "rotate-2", cap: "IMG_8105: Plant Selection & Distribution" },
+              { src: "./images/plant_giveaway_present.jpg", rot: "-rotate-1", cap: "Plant Presentation to Winners" },
             ].map((item, i) => (
               <div
                 key={i}
@@ -868,13 +868,13 @@ export const GroupProjectRightPage = React.forwardRef(({ onPhotoClick, onCornerC
           {/* Bottom: Replaced with new whiteboard group photo as attached */}
           <div
             onClick={() => onPhotoClick && onPhotoClick({
-              url: "/images/new_team_group_whiteboard.jpg",
+              url: "./images/new_team_group_whiteboard.jpg",
               caption: "Chlorophyllers 11-Member Project Team Presentation."
             })}
             className="w-full transform -rotate-0.5 hover:rotate-0 hover:scale-[1.02] transition-all duration-300 drop-shadow-lg cursor-pointer flex justify-center"
           >
             <img
-              src="/images/new_team_group_whiteboard.jpg"
+              src="./images/new_team_group_whiteboard.jpg"
               alt="Chlorophyllers Team Group Photo"
               className="w-full h-50 md:h-58 object-contain rounded"
             />
